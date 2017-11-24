@@ -1,53 +1,64 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
-    background: rgb(110,205,213);
     text-align: center;
+    background: rgb(110,205,213);
+    font-size: 16px;
 }
 
+div {
+    border:1px #F00 solid;
+}
 .return {
-    width: 30px;
-    height: 30px;
-    /*border:1px #F00 solid;*/
+    padding-left 1%;
+    padding-top: 1%;
+    width: 5.4rem;
+    height: 5.4rem;
 }
 
-.icon {
-    margin: 40px auto;
-    width:100px;
-    height:80px;
+.icon-logo {
+    margin: 5rem auto;
+    height:8rem;
 }
 
 /*中间部分面板样式*/
 .text-content {
-    margin: 30px auto;
+    margin: 3rem auto;
     width:80%;
-    height:150px;
-    font-size:14px;
+    height:15rem;
     color:white;
     text-align:left;
 }
 
 /*底部面板样式*/
 .down {
-    margin: 30px auto;
+    margin: 3rem auto;
     width:95%;
-    height:100px;
+    height:10rem;
 }
 
 .icon-left {
     margin-left: 10%;
-    width:100px;
-    height: 100px;
+    width:8.4rem;
+    height: 8.4rem;
     float: left;
     color:white;
 }
 
 .icon-right {
     margin-right: 10%;
-    width:100px;
-    height: 100px;
+    width:8.4rem;
+    height: 8.4rem;
     float: right;
     color:white;
 }
 
 .text {
-    margin-top: 0px;
+    margin-top: 0rem;
 }
+
+/*@media only screen and (min-width: 480px) and (max-width: 767px){
+    #page{ width: 450px; }#content,.div1{width: 420px;position: relative; }#secondary{display:none}#access{width: 450px; }#access a {padding-right:5px}#access a img{display:none}#rss{display:none}#branding #s{display:none}
+}*/
