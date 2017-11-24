@@ -1,0 +1,53 @@
+body {
+    background: rgb(110,205,213);
+    text-align: center;
+}
+
+.return {
+    width: 30px;
+    height: 30px;
+    /*border:1px #F00 solid;*/
+}
+
+.icon {
+    margin: 40px auto;
+    width:100px;
+    height:80px;
+}
+
+/*中间部分面板样式*/
+.text-content {
+    margin: 30px auto;
+    width:80%;
+    height:150px;
+    font-size:14px;
+    color:white;
+    text-align:left;
+}
+
+/*底部面板样式*/
+.down {
+    margin: 30px auto;
+    width:95%;
+    height:100px;
+}
+
+.icon-left {
+    margin-left: 10%;
+    width:100px;
+    height: 100px;
+    float: left;
+    color:white;
+}
+
+.icon-right {
+    margin-right: 10%;
+    width:100px;
+    height: 100px;
+    float: right;
+    color:white;
+}
+
+.text {
+    margin-top: 0px;
+}
