@@ -1,6 +1,9 @@
 html {
     font-size: 62.5%;
 }
+p,div {
+    /*border:1px #F00 solid;*/
+}
 
 body {
     text-align: center;
@@ -20,16 +23,19 @@ body {
     height:8rem;
 }
 
-/*中间部分面板样式*/
 .text-content {
     margin: 3rem auto;
     width:80%;
     height:15rem;
     color:white;
-    text-align:left;
 }
 
-/*底部面板样式*/
+.text2 {
+    margin: 0;
+    text-align: left;
+    display:inline-block
+}
+
 .down {
     margin: 3rem auto;
     width:95%;
@@ -51,7 +57,6 @@ body {
     float: right;
     color:white;
 }
-
 .text {
     margin-top: 0rem;
 }
