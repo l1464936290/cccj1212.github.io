@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background: rgb(239, 240, 243);
+}
+
+div {
+    /*border: 1px #F00 solid;*/
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    font-size: 1.6rem;
+    height: 4.2rem;
+    background: #5ac0ce;
+    color: white;
+    text-align: center;
+}
+
+#header-close {
+    float: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.header p {
+    font-size: 1.8rem;
+    padding: 0.8rem;
+    font-weight: normal;
+    display:inline-block
+}
+#header-register {
+        float: right;
+        padding-right: 1rem;
+        padding-top: 1rem;
+}
+.list {
+    margin-bottom: 2rem;
+}
+label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.list li {
+    margin-top: 0.8rem;
+    padding: 1.75rem 0;
+    height: 1.5rem;
+    background: white;
+}
+
+.list li img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.list input {
+    font-size: 1.6rem;
+    padding-bottom: 0.2rem;
+    border: none;
+    /*让边框去掉*/
+    border-left: 1px solid #eaedee;
+    text-indent: 1.2rem;
+}
+.enter button {
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    background: #5ac0ce;
+    margin-bottom: 1rem;
+}
+.enter a {
+    color: #5ac0ce;
+    font-size: 1.6rem;
+    float: right;
+    margin-right: 1rem;
+}
