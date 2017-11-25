@@ -1,0 +1,18 @@
+.drlo,.bnti {
+    color: #2e4e7e;
+}
+
+a {
+    color: #75878a;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffb61e
+}
+
+.box {
+    /*border:1px #F00 solid;*/
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
