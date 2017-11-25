@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title># 11月24日 / 周五 Diary</title>
+<title># 11月25日 / 周六 Diary</title>
 <style>
 @font-face {
   font-family: octicons-anchor;
@@ -839,45 +839,63 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 </style>
 
 <style> @media print{ .hljs{overflow: visible; word-wrap: break-word !important;} }</style></head><body><div class="markdown-body">
-<h1 id="toc_0">11月24日 / 周五 Diary</h1>
+<h1 id="toc_0">11月25日 / 周六 Diary</h1>
 
 <h2 id="toc_1">今天完成的事情</h2>
 
 <ol>
-<li>html css + div 实现整体布局 <a href="https://www.cnblogs.com/fxwl/p/5961372.html">资料</a></li>
-<li>为 div 添加样式和文本内容</li>
-<li>使用 body 设置 <code>text-align:center</code>, 再对需要居中的div盒子设置css样式 <code>margin:0 auto</code> <strong>实现居中</strong></li>
-<li><strong>切图</strong> (这个看视频学的快点) <a href="http://www.imooc.com/learn/506">视频链接</a></li>
-<li>字体颜色 <strong>color :  ;</strong> 可以使用的值 <strong>名称</strong> red / <strong>十六进制值</strong> #ff0000 / <strong>rgb</strong> rgb(255,0,0)</li>
+<li>task3 的修改
+
+<ul>
+<li>主要是中间的文字虽然左对齐了但是没有居中，给文字加上 <code>display:inline-block 让p的宽度正好是内容文本的宽度</code> 就能够居中对齐了。</li>
+</ul></li>
+<li>task3 的深度思考完成</li>
+<li>task4 的效果图完成
+
+<ul>
+<li>task4 实现的时候自己先做了一遍，然后实现了之后又看了之前师兄的代码，然后我就发现窝草，我自己做的是个什么鬼东西（我用的是div套div套div，还感觉自己贼6，其实贼蠢）然后果断参考师兄的代码又重写了一遍，不停的用检查看别人的代码到底是如何实现的。</li>
+<li>自己写完之后再参考别的的代码思考，用别的方法再实现这个是非常重要的。（<strong>不然怎么知道自己写的代码到底有多傻😂</strong>）</li>
+</ul></li>
+<li>英语背单词加复习完成。（真不知道的小学英语还有没有救）</li>
 </ol>
 
 <h2 id="toc_2">明天的计划</h2>
 
-<ol>
-<li>学习使用 @media , 今天看了一点, 明天再学学应该就会了</li>
-<li>弄清楚 PX，EM，REM 到底是什么关系, 今天看了半天也没具体弄懂他们不同的作用.</li>
-<li>开始学习 task4</li>
-<li>英语</li>
-</ol>
+<p><strong>明天请假一天。。。学校要交作业了，再不交就要挂我了</strong></p>
 
 <h2 id="toc_3">遇到的问题</h2>
 
+<h4 id="toc_4">已解决</h4>
+
+<ol>
+<li>（task4）开始自己的页面上全部用的是div，后来写完之后参考师兄的代码才发现自己写的到底有多蠢，然后重写了一遍。</li>
+<li>如何让 input 中的value变成灰色，方法是用 <code>value placeholder 规定帮助用户填写输入字段的提示</code></li>
+<li>让 input 只能输入数字 <code>type=&quot;number&quot;</code></li>
+<li>让 input 输入的密码不可见 <code>type=&quot;password&quot;</code></li>
+<li>去掉输入框，按钮 的边框 <code>border: none;</code>  样式<code>outline: none;</code></li>
+</ol>
+
+<h4 id="toc_5">未解决</h4>
+
+<p>PS的图是 720px * 1280px 图片，而 iphone6的逻辑分辨率是375 * 667，物理分辨率是 750 * 1334，那实现出来的时候到底应该怎么把 720px 的图做到 375px的手机上呢？ （就是应该如何把设计图缩小放到。。。。啊洗吧我到底在讲什么东西）</p>
+
+<p>简单的就是说，因为iphone的物理分辨率是750* 1334, 所以设计图也应该是差不多分辨率的，这样压缩到 375 * 667的图片上才会清楚。<strong>所以到底应该怎么把720px的设计图做到 375px的 手机上面而且又不损失画质呢。</strong></p>
+
+<p>算了算了，我感觉我形容的好有毒，还是自己太菜了，这个问题就留在这里吧。之后再研究！</p>
+
+<h2 id="toc_6">收获</h2>
+
+<ol>
+<li>基本上成功的完成了task4，做完深度思考以后就可以开始学习task5了。</li>
+<li>学会了使用span, form, ul, li, lable, buuton 来做页面了。但是还不是很熟悉到底应该如何使用，需要再多学习，多看资料。</li>
+<li>在自己实现任务之后，要多看别人的代码，来思考自己的问题在哪里，考虑用多种方式实现任务。</li>
+<li>把英语的学习放在一天的开始还是对的，不然的话英语很容易就扔一边不学了。</li>
+</ol>
+
+<h2 id="toc_7">总结</h2>
+
 <ul>
-<li>今天的问题就是没有弄懂自适应中 px em rem 的关系以及作用. 一开始我是使用 px 来完成 task3的作业的, 完成之后研究 em, rem , 虽然我试着把 px 都换成了 rem, 但是感觉就是换了个单位, 还是没有弄清楚到底是怎么一回事.  <strong>(虽然已经可以实现task3的任务了, 但是在这个上面是真的卡了挺久的, 关键是还没弄懂, 很尴尬)</strong></li>
-</ul>
-
-<h2 id="toc_4">收获</h2>
-
-<ul>
-<li>可以对页面进行布局了.</li>
-<li>学会了切图, 能够用切好的图完成任务.</li>
-<li>基本上完成了任务3, 但是还是有不明白的</li>
-</ul>
-
-<h2 id="toc_5">总结</h2>
-
-<ul>
-<li>啊啊啊, 感觉今天卡在那个问题上好久好久啊, 搞的英语还没看, 难受难受. 明天继续研究吧. (明天决定先学英语, 英语学完了再学别的, 不然要凉了)</li>
+<li>当有问题不会的时候，不能卡在那边不动，干想，要勇于尝试才能把任务进行下去。在自己完成任务之后，不能就这么过去了，要学会通过别人的代码学习，通过别人的代码来思考自己的问题在哪里，<strong>多思考多尝试才能更快的提高自己</strong>。 加油加油~</li>
 </ul>
 
 </div></body>
