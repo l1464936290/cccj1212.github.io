@@ -62,6 +62,7 @@ label {
     font-size: 1.6rem;
     padding-bottom: 0.2rem;
     border: none;
+    outline: none;
     /*让边框去掉*/
     border-left: 1px solid #eaedee;
     text-indent: 1.2rem;
@@ -73,6 +74,9 @@ label {
     height: 5rem;
     background: #5ac0ce;
     margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    /*去掉button的边框和样式*/
 }
 .enter a {
     color: #5ac0ce;
