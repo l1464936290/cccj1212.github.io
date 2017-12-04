@@ -1,0 +1,250 @@
+/*.box {*/
+    /*width:600px;*/
+    /*height: 300px;*/
+    /*background: green;*/
+/*}*/
+/*!*.box span {*!*/
+    /*!*display: inline-block;*!*/
+    /*!*background-image: url("images/未标题-2.png");*!*/
+    /*!*background-repeat: no-repeat;*!*/
+/*!*}*!*/
+/*.icon1 {*/
+    /*background: url("images/未标题-2.png") 0 0 no-repeat;*/
+    /*background-size: 16.8px;*/
+    /*height: 50px;*/
+    /*width: 252px;*/
+
+/*}*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 625%;
+    /*border: 1px  #c2c2c2 solid;*/
+}
+body {
+
+    min-width: 320px;
+}
+.iconplace {
+    width: 0.21rem;
+    position:fixed;
+    right: 0.1rem;
+    top: 0.1rem;
+}
+
+header {
+    height: 0.44rem;
+    width: 100%;
+    background-color: #61c0cc;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+
+    /*让header显示在最上面，因为之前按钮移动的时候会挡住header*/
+    z-index:9999;
+
+}
+
+header .btn-group .btleft {
+    background-color: #57a8b3;
+    border: none;
+    color: white;
+}
+
+header .btn-group .btright {
+    background-color: white;
+    border: none;
+    color: #2aabd2;
+}
+main {
+    margin-top: 0.44rem;
+}
+
+main .drop {
+    width: 100%;
+    height: 0.4rem;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px rgba(194, 194, 194, 0.47) solid;
+}
+
+main .drop .btn-group {
+    width: 33%;
+}
+main .drop .btn-group button {
+    outline: none;
+    border: none;
+    width: 100%;
+    color: rgba(15, 15, 15, 0.47);
+}
+
+.mid-drop {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-image: linear-gradient( #f0f0f0, #999999, #f0f0f0) 1;
+}
+
+
+.btn .caret {
+    position: absolute;
+    right: 0;
+    margin:  0.08rem;
+}
+
+.info li {
+    height: 0.9rem;
+    border-bottom: 1px #c2c2c2 solid;
+    font-size: 0.14rem;
+    list-style-type:none;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
+.time-address {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+    width: 60%;
+    height: 100%;
+    /*display: inline;*/
+    padding-left: 5%;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+
+}
+.payhour {
+    display: flex;
+    /*flex-direction属性决定主轴的方向（即项目的排列方向）。*/
+    flex-direction:column;
+    /*justify-content属性定义了项目在主轴上的对齐方式。*/
+    justify-content:center;
+    /*align-items属性定义项目在交叉轴上如何对齐。*/
+    align-items: flex-end;
+
+    width: 1.11rem;
+    height: 100%;
+    padding-right: 5%;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+
+
+}
+.time-address span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.payhour span {
+    overflow:hidden; /*不显示超过对象宽度的内容*/
+    text-overflow:ellipsis; /*当对象内文本溢出时显示省略标记（...）*/
+    white-space:nowrap; /*限制在一行内显示所有文本*/
+}
+.date-p {
+    color: #c2c2c2;
+    background: url("images/task5-2_0001s_0005s_0000s_0001_calendar2-拷贝-5.png") no-repeat left 43%;
+    background-size: 0.12rem;
+    padding-left: 0.25rem;
+}
+.date {
+    padding: 0.03rem 0 0.03rem 0.25rem;
+}
+.place{
+    color: #c2c2c2;
+    background: url("images/task5-2_0001s_0005s_0004_Shape-4-拷贝-5.png") no-repeat left 41%;
+    background-size: 0.12rem;
+    padding-left: 0.25rem;
+}
+
+.payhour span {
+    font-size: 0.15rem;
+    color: red;
+    font-weight: bold;
+    background: url("images/task5-2_0001s_0005s_0024_矢量智能对象-拷贝.png") no-repeat 0.8rem 0.03rem ;
+    background-size: 0.1rem;
+    padding-right: 0.23rem;
+}
+
+.payhour span a{
+    text-decoration:none;
+    cursor: pointer;
+    color:red;
+}
+
+
+main {
+    /*设置padding-bottom值大于等于footer的height值，
+   以保证main的内容能够全部显示出来而不被footer遮盖；*/
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #f8fafb;
+    font-size: 0.1rem;
+    position: fixed;
+    height: 0.5rem;
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div {
+    display: block;
+    text-align: center;
+
+}
+footer img {
+    width: 50%;
+    height:50%;
+}
+
+footer .home {
+    color: #61c0cd;
+    padding-left: 0.02rem;
+}
+
+footer a {
+    /*让 a 元素换行*/
+    display: block;
+
+    padding-top: 0.05rem;
+
+    text-decoration:none;
+    cursor: pointer;
+}
+
+footer .edit {
+    width: 0.47rem;
+    height: 0.47rem;
+    background-color: #61c0cd;
+    border-radius: 50%;
+
+}
+
+.edit img {
+    margin-top: 0.05rem;
+    margin-left: 0.02rem;
+}
+
+footer .mine a {
+    color: #999999;
+}
