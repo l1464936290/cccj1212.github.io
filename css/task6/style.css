@@ -1,21 +1,3 @@
-/*.box {*/
-    /*width:600px;*/
-    /*height: 300px;*/
-    /*background: green;*/
-/*}*/
-/*!*.box span {*!*/
-    /*!*display: inline-block;*!*/
-    /*!*background-image: url("images/未标题-2.png");*!*/
-    /*!*background-repeat: no-repeat;*!*/
-/*!*}*!*/
-/*.icon1 {*/
-    /*background: url("images/未标题-2.png") 0 0 no-repeat;*/
-    /*background-size: 16.8px;*/
-    /*height: 50px;*/
-    /*width: 252px;*/
-
-/*}*/
-
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +11,7 @@ html {
 .iconplace {
     width: 0.21rem;
     position:fixed;
-    right: 0.1rem;
+    right: 5%;
     top: 0.1rem;
 }
 
@@ -62,8 +44,12 @@ header .btn-group .btright {
     color: #2aabd2;
 }
 main {
+	/*设置padding-bottom, top值大于等于footer的height值，
+   以保证main的内容能够全部显示出来而不被footer，header遮盖；*/
     margin-top: 0.44rem;
+	padding-bottom: 0.5rem;
 }
+
 
 main .drop {
     width: 100%;
@@ -187,11 +173,7 @@ main .drop .btn-group button {
 }
 
 
-main {
-    /*设置padding-bottom值大于等于footer的height值，
-   以保证main的内容能够全部显示出来而不被footer遮盖；*/
-    padding-bottom: 0.5rem;
-}
+
 
 footer {
     background-color: #f8fafb;
