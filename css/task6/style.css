@@ -25,10 +25,7 @@ html {
     font-size: 625%;
     /*border: 1px  #c2c2c2 solid;*/
 }
-body {
 
-    min-width: 320px;
-}
 .iconplace {
     width: 0.21rem;
     position:fixed;
