@@ -1,0 +1,239 @@
+
+@media screen and (min-width: 640px){
+	html{
+		font-size: 780%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 640px) {
+	html{
+		font-size: 625%;
+		height: 100%;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	/*border: 1px red solid;*/
+}
+
+html, body {
+	background-color: #3abdde;
+}
+
+
+header {
+	height: 0.44rem;
+	width: 100%;
+	background-color: #3abcdd;
+	position: fixed;
+	top: 0;
+
+	z-index: 9999;
+
+	display: flex;
+	align-items: center;
+}
+
+header .shut {
+	width: 0.2rem;
+	height: 0.2rem;
+	position: absolute;
+	right: 0.15rem;
+	top:0.12rem;
+}
+
+header .dropdown img {
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-left: 0.1rem;
+}
+
+.dropdown-content li {
+	list-style-type:none;
+	/* 清楚列表样式（没错，就是你想的那个）*/
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	margin-left: 0.1rem;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 1rem;
+	box-shadow: 0 0.08rem 0.16rem 0 rgba(0,0,0,0.2);
+	/* boxshadow 增加投影 */
+	padding: 0.12rem 0.1rem;
+	z-index: 1;
+	border-radius: 5%;
+}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+	color: black;
+	padding: 0.06rem 0.08rem;
+	text-decoration: none;
+	/* 下划线颜色 */
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+main {
+	margin-top: 0.44rem;
+	height: 100%;
+	width: 100%;
+
+	padding-bottom: 0.95rem;
+
+}
+
+.cast {
+	height: 0.41rem;
+	width: 100%;
+	background-color: #bbe9f4;
+
+	display: flex;
+	align-items: center;
+}
+
+.cast span {
+	margin-left: 8%;
+	font-size: 0.14rem;
+	color: #696969;
+}
+
+.start {
+	width: 0.26rem;
+	height: 0.26rem;
+	background-color: orange;
+	border-radius: 50%;
+	border: none;
+
+	position: absolute;
+	right: 3%;
+
+
+}
+
+.start .glyphicon-triangle-right {
+	margin-top: 0.03rem;
+	margin-left: 0.03rem;
+
+	color: white;
+}
+
+.glyphicon-triangle-bottom {
+	position: absolute;
+	left: 10%;
+	top: 0.81rem;
+	color: #bbe9f4;
+}
+.click {
+	color: white;
+	margin-left: 11%;
+	margin-top: 0.13rem;
+	margin-bottom: 0.2rem;
+}
+
+.max-box {
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box {
+	width: 30%;
+	/*使得box不换行*/
+	display: inline-block;
+
+	text-align: center;
+	font-size: 0.16rem;
+}
+
+.status {
+	width: 100%;
+	background-color: #f3ca83;
+	border: 0.03rem white solid;
+	margin-bottom: 0.1rem;
+}
+
+.police {
+	padding: 30% 0;
+}
+
+.number {
+	background-color: #84b09b;
+	color: white;
+}
+.box-bottom {
+	width: 100%;
+	opacity: 0;
+	/*opacity 属性, 设置 div 元素的不透明级别*/
+}
+
+.box-bottom li {
+	display: inline-block;
+	width: 20%;
+	padding: 12.5% 0;
+	background-image: url(image/icon.png);
+	background-repeat: no-repeat;
+	background-size: 400%;
+}
+
+/*:hover 选择鼠标指针浮动在其上的元素，并设置其样式*/
+.box:hover .box-bottom {
+	opacity: 1;
+}
+.kill {
+	background-position: 0 0;
+}
+
+.search {
+	background-position: 34% 0;
+}
+
+.aim {
+	background-position: 67% 0;
+}
+
+.salvation {
+	background-position: 100% 0;
+}
+
+footer {
+	height: 1rem;
+	width: 100%;
+	background-color: #3abddd;
+	position: fixed;
+	bottom: 0;
+
+	border-top: 1px white solid;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.die {
+	width: 2.5rem;
+	height: 0.5rem;
+	background-color: #f9b54a;
+	border: none;
+	color: white;
+	font-size: 0.20rem;
+
+}

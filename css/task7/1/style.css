@@ -1,0 +1,160 @@
+
+@media screen and (min-width: 640px){
+	html{
+		font-size: 780%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 640px) {
+	html{
+		font-size: 625%;
+		height: 100%;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	/*border: 1px red solid;*/
+}
+
+html, body {
+	background-color: #f5f5f5;
+}
+
+
+header {
+	height: 0.44rem;
+	width: 100%;
+	background-color: #3abcdd;
+	position: fixed;
+	top: 0;
+}
+
+.dropdown button {
+	margin: 0.1rem 0 0 .1rem;
+	background-color: #29BDE0;
+	border: none;
+	color: white;
+	font-size: 0.2rem;
+}
+
+.dropdown-menu {
+	min-width: 0.1rem;
+}
+
+
+main {
+	margin-top: 0.44rem;
+	height: 6.2rem;
+	width: 100%;
+	background-color: #f5f5f5;
+	background-size: 0.67rem 0.15rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.gamelast {
+	width: 90%;
+	height: 10%;
+	background: white;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+
+	font-size: 0.18rem;
+	color: #aeaeae;
+
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+	border: 1px #d5d5d5 solid;
+}
+
+.gamelast img {
+	width: 0.12rem;
+	height: 0.20rem;
+
+	position: absolute;
+	right: 10%;
+	top:0.87rem;
+
+}
+
+.gamenow {
+	width: 90%;
+	height: 75%;
+	background-color: white;
+
+	font-size: 0.2rem;
+	color: #aeaeae;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	border: 1px #d5d5d5 solid;
+}
+
+.game {
+	height: 10%;
+	width: 100%;
+	border-bottom: 1px orange solid;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+	color: orange;
+}
+
+.edition {
+	width: 80%;
+	height: 18%;
+	background-color: #3abcdd;
+	border: none;
+	cursor: pointer;
+
+
+	/*display: flex;*/
+	/*justify-content:center;*/
+	/*align-items: center;*/
+
+	color: white;
+}
+.top {
+	margin-top: 0.2rem;
+}
+
+.number {
+	margin: 0.1rem 0;
+	font-size: 0.14rem;
+}
+
+.next button{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	background-color: #d6d6d6;
+	float: left;
+	margin: 0 0.03rem;
+}
+
+.next .now {
+	background-color: #2aabd2;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 0.14rem solid transparent;
+	border-left: 0.15rem solid orange;
+	border-bottom: 0.14rem solid transparent;
+
+	position: absolute;
+	right: 7.5%;
+	top: 3.65rem;
+}
