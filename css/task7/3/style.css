@@ -70,7 +70,7 @@ main {
 .box-win {
 	width: 100%;
 	padding: 0 15%;
-	height: 3.8rem;
+	/*height: 3.8rem;*/
 	background-color: #3abcdd;
 
 	/*display: flex;*/
@@ -104,6 +104,10 @@ main {
 	margin: 0.03rem 0;
 	color: white;
 	font-size: 0.14rem;
+}
+
+.last-p {
+	padding-bottom: 0.2rem;
 }
 
 .box-day {
