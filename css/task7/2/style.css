@@ -4,11 +4,23 @@
 		font-size: 780%;
 		height: 100%;
 	}
+
+	.police {
+		width: 100%;
+		position: absolute;
+		top: 35%;
+	}
 }
 @media screen and (max-width: 640px) {
 	html{
 		font-size: 625%;
 		height: 100%;
+	}
+
+	.police {
+		width: 100%;
+		position: absolute;
+		top: 30%;
 	}
 }
 
@@ -18,8 +30,13 @@
 	/*border: 1px red solid;*/
 }
 
+body {
+
+}
 html, body {
 	background-color: #3abdde;
+	min-width: 320px;
+
 }
 
 
@@ -156,8 +173,8 @@ main {
 }
 
 .box {
-	width: 30%;
-	/*使得box不换行*/
+	width: 25vw;
+	/* 使得box不换行 */
 	display: inline-block;
 
 	text-align: center;
@@ -165,19 +182,28 @@ main {
 }
 
 .status {
-	width: 100%;
+	width:25vw;
+	height: 25vw;
 	background-color: #f3ca83;
 	border: 0.03rem white solid;
 	margin-bottom: 0.1rem;
+
+	/* 使得police, number可以定位 */
+	position: relative;
 }
 
-.police {
-	padding: 30% 0;
-}
+/*.police {*/
+	/*width: 100%;*/
+	/*position: absolute;*/
+	/*top: 30%;*/
+/*}*/
 
 .number {
 	background-color: #84b09b;
 	color: white;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 .box-bottom {
 	width: 100%;
