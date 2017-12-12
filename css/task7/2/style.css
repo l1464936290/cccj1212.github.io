@@ -5,11 +5,11 @@
 		height: 100%;
 	}
 
-	.police {
-		width: 100%;
-		position: absolute;
-		top: 35%;
-	}
+	/*.police {*/
+		/*width: 100%;*/
+		/*position: absolute;*/
+		/*top: 35%;*/
+	/*}*/
 }
 @media screen and (max-width: 640px) {
 	html{
@@ -17,11 +17,11 @@
 		height: 100%;
 	}
 
-	.police {
-		width: 100%;
-		position: absolute;
-		top: 30%;
-	}
+	/*.police {*/
+		/*width: 100%;*/
+		/*position: absolute;*/
+		/*top: 30%;*/
+	/*}*/
 }
 
 * {
@@ -188,15 +188,16 @@ main {
 	border: 0.03rem white solid;
 	margin-bottom: 0.1rem;
 
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	/* 使得police, number可以定位 */
 	position: relative;
 }
 
-/*.police {*/
-	/*width: 100%;*/
-	/*position: absolute;*/
-	/*top: 30%;*/
-/*}*/
+.police {
+	margin-bottom: 3vw;
+}
 
 .number {
 	background-color: #84b09b;
@@ -205,6 +206,7 @@ main {
 	position: absolute;
 	bottom: 0;
 }
+
 .box-bottom {
 	width: 100%;
 	opacity: 0;
