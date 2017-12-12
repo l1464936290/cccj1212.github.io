@@ -3,26 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7676e34-d265-4612-a313-3d18890b6c64" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/task7/1/task7.html" afterPath="$PROJECT_DIR$/css/task7/1/task7.html" />
-      <change beforePath="$PROJECT_DIR$/css/task7/2/2.html" afterPath="$PROJECT_DIR$/css/task7/2/2.html" />
-      <change beforePath="$PROJECT_DIR$/css/task7/3/3.html" afterPath="$PROJECT_DIR$/css/task7/3/3.html" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/3.3.6/bootstrap-theme.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/3.3.6/bootstrap-theme.css" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/3.3.6/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/3.3.6/bootstrap-theme.css.map" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/3.3.6/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/3.3.6/bootstrap-theme.min.css" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/3.3.6/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/3.3.6/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/3.3.6/bootstrap.css.map" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/3.3.6/bootstrap.css.map" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/3.3.6/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/3.3.6/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/3.3.6/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/3.3.6/bootstrap.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/js/bootstrap/3.3.6/bootstrap.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/bootstrap/3.3.6/bootstrap.js" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/js/bootstrap/3.3.6/bootstrap.min.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/bootstrap/3.3.6/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/js/bootstrap/3.3.6/npm.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/bootstrap/3.3.6/npm.js" />
-      <change beforePath="$PROJECT_DIR$/css/task7/bootstrap/js/jquery/2.0.0/jquery.min.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/jquery/2.0.0/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/css/task7/1/task7.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -60,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/css/task7/2/2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -81,28 +62,28 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/task7/2/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3345">
-              <caret line="249" column="32" lean-forward="false" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
+            <state relative-caret-position="3735">
+              <caret line="251" column="32" lean-forward="false" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="390">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/task7/3/3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -153,11 +134,11 @@
         <option value="$PROJECT_DIR$/css/task7/3/home.svg" />
         <option value="$PROJECT_DIR$/css/task7/3/home.css" />
         <option value="$PROJECT_DIR$/css/task7/2/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/task7/3/style.css" />
         <option value="$PROJECT_DIR$/css/task7/1/task7.html" />
         <option value="$PROJECT_DIR$/css/task7/2/2.html" />
         <option value="$PROJECT_DIR$/css/task7/3/3.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -169,7 +150,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="559" />
-    <option name="y" value="366" />
+    <option name="y" value="240" />
     <option name="width" value="1070" />
     <option name="height" value="867" />
   </component>
@@ -218,6 +199,12 @@
             <path>
               <item name="cccj1212.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="cccj1212.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cccj1212.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cccj1212.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="diary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,8 +217,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,14 +286,15 @@
       <workItem from="1512661809554" duration="8000" />
       <workItem from="1512698380734" duration="9348000" />
       <workItem from="1512809732237" duration="72000" />
+      <workItem from="1513085280153" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40522000" />
+    <option name="totallyTimeSpent" value="40588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="366" width="1070" height="867" extended-state="0" />
+    <frame x="559" y="240" width="1070" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21028037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -663,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task7/2/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3345">
-          <caret line="249" column="32" lean-forward="false" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
+        <state relative-caret-position="3735">
+          <caret line="251" column="32" lean-forward="false" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -687,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/css/task7/1/task7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -695,7 +683,7 @@
     <entry file="file://$PROJECT_DIR$/css/task7/2/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -712,18 +700,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/task7/3/3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task7/3/3.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="390">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding />
         </state>
       </provider>
